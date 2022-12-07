@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLEGARIA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/icono.svg">
+</head>
+<body>
+     <!-- HEADER -->
+     <header>
+      <a class="aflecha" href="menu.html"><img class="flecha" src="img/menu_hamburguesa.svg" alt="Menu hamburguesa"></a>
+        <img class="logo" src="img/logo.svg" alt="Logo PLEGARIA">
+        <img class="imgc" src="img/carrito.svg" alt="Carrito"> 
+        <img class="imgl" src="img/lupa.svg" alt="Lupa">
+    </header>
+    <main>
+        <div class="imgtitulo4">
+            <h2 class="titulos" >envío</h2>
+        </div>
+        <input class="inputs" name="nombre" type="text" placeholder="Nombre*" required>
+        <input class="inputs" name="apellido" type="text" placeholder="Apellido*" required>
+        <input class="inputs" name="direccion" type="text" placeholder="Dirección*" required>
+        <input class="inputs" name="numero" type="number" placeholder="Número*" required>
+        <input class="inputs" name="piso" type="number" placeholder="Piso*">
+        <input class="inputs" name="departamento" type="number" placeholder="Departamento*">
+
+        <div class="paisformu">
+        <select name="pais" id="pais">
+            <optgroup label="Sudamerica">
+                <option value="argentina" selected>Argentina</option>
+                <option value="brasil">Brasil</option>
+                <option value="chile">Chile</option>
+            </optgroup>
+            <optgroup label="Norteamerica">
+                <option value="estadosunidos">Estados Unidos</option>
+                <option value="canada">Cánada</option>
+                <option value="mexico">México</option>
+            </optgroup>
+        </select>
+    </div>
+    
+        <input class="inputs" name="ciudad" type="text" placeholder="Ciudad/Localidad*" required>
+        <input class="inputs" name="codigopostal" type="number" placeholder="Codigo postal*" required>
+        <input class="inputs" name="telefono" type="tel" placeholder="Celular*|+54 11" required>
+        
+        <p class="sub">Métodos de envío</p>
+
+        <div class="radio">
+        <input name="tipo" type="radio" value="retiro" id="retiro">
+        <label class="textradio" for="retiro">$0,00 Retiro en tienda</label>
+        </div>
+        <div class="radio">
+        <input name="tipo" type="radio" value="domicilio" id="domicilio">
+        <label class="textradio" for="domicilio">$850,00 Envío a domicilio por OCA</label>
+    </div>
+
+    <a href="index.html">
+        <input class="botoncarrito" type="button" value="siguiente">
+    </a>
+    </main>
+    <!-- FOOTER -->
+ <footer>
+    <div class="lineab" ></div> 
+   <div class="contfooter">
+    <h4 class="titulo"> Locales </h4>
+    <img class="location" src="img/location.svg" alt="icono lugar">
+   </div>
+      <div>
+    <div class="footercontainer">
+         <h5 class="info"> Dot Baires Shopping</h5>
+         <h5 class="info"> Unicenter Shopping</h5>
+         <h5 class="info"> Abasto Shopping</h5>
+     </div>
+       
+     <div class="contfooter"> 
+      <h4 class="titulo2"> Contactános</h4>
+      <img class="mail" src="img/mail.svg" alt="icono mail">
+      </div>
+    <h5 class="info">plegaria@gmail.com</h5>
+   
+     <h4 class="newsletter" >PLGR Team</h4>
+     <h5 class="newsletter2" >¡Sumate y obtené beneficios únicos!</h5>
+   
+   
+     <div class="formulario2">
+         <input class="escribetumail" type="text" placeholder="Ingresa tu mail">
+         <input class="enviarmail" type="submit" value="Suscribite">
+     </div>
+   
+     <section class="footersocialmedia">
+       <div class="vertical">
+         <h3 class="seguinos">¡Seguinos en nuestras redes!</h3>
+         <div class="horizontal">
+           <a class="redsocial" href="https://www.instagram.com/plegarianet/?igshid=YmMyMTA2M2Y%3D">
+             <img class="red" src="img/insta.svg" alt="logo instagram">
+           </a>
+           <a class="redsocial" href="https://www.tiktok.com/@plegaria.net?_t=8VUXVowWL4Q&_r=1">
+             <img class="tiktok" src="img/tiktok.svg" alt="logo tiktok">
+           </a>
+         </div>
+       </div>
+   
+     </section> 
+   
+     <a class="volverinicio" href="#">
+       Volver al inicio
+     </a>
+   
+     <img class="logofooter" src="img/logofooter.svg" alt="Logo PLEGARIA">
+   </footer>
+</body>
+</html>
+
+

@@ -1,0 +1,1361 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet');
+
+/* HTML: INDEX */
+
+body{
+    background-color: rgb(29, 29, 27);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(29, 29, 27);
+}
+.imgh{
+    width: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.logo{
+    width: 30%;
+    margin-left: 10%;
+}
+.imgc{
+    width: 10%;
+    margin: 0%;
+}
+.imgl{
+    width: 10%;
+    margin-right: 2%;
+}
+video{
+    width: 100%;
+}
+.imgindu{
+    background-image: url(img/img_indu.JPG);
+    background-size: cover;
+    padding-bottom: 10%;
+    margin-top: 0%;
+}
+h1{
+    color: white;
+    font-size: 130%;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 40%;
+    padding-bottom: 4%;
+    font-family: Roboto;
+}
+.movement{
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 40%;
+    padding-bottom: 4%;
+    font-family: Bebas Neue;
+    font-weight: 400;
+}
+
+.botones{
+    font-size: 20px;
+    font-family: Bebas Neue;
+    color: black;
+    padding: 1%;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: white;
+    text-align: center;
+}
+.botones2{
+    font-size: 20px;
+    color: black;
+    padding: 1%;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: white;
+    text-align: center;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+.botones3{
+    font-size: 20px;
+    color: black;
+    font-family: roboto;
+    padding: 1%;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: white;
+    text-align: center;
+    margin-left: 22%;
+    margin-right: 22%;
+}
+.imgcrea{
+    background-image: url(img/creatudiseño-100.jpg);
+    background-size: cover;
+    padding-top: 50%;
+    padding-bottom: 10%;
+    margin-top: 0%;
+}
+.input2{
+    font-size: 20px;
+    padding: 1%;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: roboto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.imggift{
+    background-image: url(img/homepagegiftcards.png);
+    background-size: cover;
+    padding-top: 60%;
+    padding-bottom: 10%;
+    margin-top: 10%;
+}
+.input3{
+    font-size: 20px;
+    padding: 1%;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: roboto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+/* FOOTER */
+.lineab{
+    height: 2px;
+    width: 350px;
+    background-color: white;
+    margin-top: 8%;
+    margin-left: 4%;
+}
+.contfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.titulo{
+    font-size: 23px;
+    padding-top: 5%;
+    margin-left: 5%;
+    font-family: Bebas Neue;
+    color: white;
+    letter-spacing: 15%;
+}
+.titulo2{
+    font-size: 23px;
+    margin-top: 30px;
+    margin-left: 5%;
+    font-family: Bebas Neue;
+    color: white;
+    letter-spacing: 15%;
+}
+.footercontainer{
+    display: flex;
+    flex-direction: column;
+    font-family: roboto;
+}
+.location{
+    width: 8%;
+    margin-left: 2%;
+    margin-top: 4%;
+}
+.info{
+    font-size: 14px;
+    color: white;
+    margin-top: 2%;
+    margin-left: 5%;
+    font-weight: 400;
+}
+.mail{
+    width: 8%;
+    margin-left: 2%;
+    margin-top: 7%;
+}
+.footersocialmedia{
+    text-align: center;
+    margin-top: 10%;
+    padding-bottom: 10%;
+}
+.vertical{
+    display: flex;
+    flex-direction: column;
+}
+.horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 8%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.red{
+    width: 40px;
+}
+.redsocial{
+    width: 50%;
+    margin-bottom: -5%;
+}
+.tiktok{
+    width: 40px;  
+}
+.seguinos{
+    color: white;
+    font-family: sans-serif;
+    font-size: 110%;
+    margin-top: -5%;
+    margin-bottom: -3%;
+}
+a{
+    text-decoration: none;
+}
+.text{
+    text-align: left;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-left: 5%;
+    padding-top: 2%;
+    font-family: roboto;
+    color: white;
+}
+.volverinicio{
+    color: white;
+    text-decoration: underline;
+    margin-left: 38%;
+    font-family: roboto;
+    font-size: 80%;
+    margin-bottom: 5%;
+}
+.logofooter{
+    width: 25%;
+    height: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.newsletter{
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 2%;
+    margin-bottom: -20px;
+    margin-top: 20px;
+}
+.newsletter2{
+    font-family: Roboto;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 300;
+}
+.formulario2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+.escribetumail{
+    text-transform: capitalize;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-size: 14px;
+    padding-right: 15%;
+    border: solid 1px white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5px;
+}
+.enviarmail{
+    margin-left: 0%;
+    margin-right: 5%;
+    border: solid 1px white;
+    font-family: Bebas Neue;
+    background-color: rgb(0, 240, 2);
+    color: rgb(29, 29, 27);
+    font-size: 20px;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+/* FIN HTML: INDEX */
+
+
+/* HTML: INDUMENTARIA */
+.imgtitulo4{
+    background-image: url(img/induementaria.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 80px;
+    margin-bottom: 10px;
+}
+.contimgindu{
+    position: relative;
+    margin-top: 10px;
+}
+.titulosindu{
+    color: rgb(29, 29, 27);
+    background-color:  rgb(0, 240, 2);
+    font-family: Bebas Neue;
+    position: relative;
+    width: 40%;
+    font-size: 33px;
+    text-align: center;
+    top: 1em;
+   
+}
+
+
+
+
+
+/* FIN HTML: INDUMENTARIA */
+
+
+/* HTML: BUZOS */
+.horizontal2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 7.5%;
+}
+.vertical2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 8%;
+    justify-content: flex-end;
+}
+.div4{
+    display: flex;
+    flex-direction: column;
+}
+h5{
+    color: white;
+    font-family: roboto;
+    font-size: 15px;
+    margin-top: 5%;
+}
+span{
+    text-transform: uppercase;
+}
+.precio{
+    color: white;
+    font-family: roboto;
+    font-size: 15px;
+    margin-top: 2%;
+    margin-bottom: 30px;
+}
+.div5{
+    display: flex;
+    flex-direction: column;
+}
+.imgbuzos{
+    position: absolute;
+}
+.botonmas{
+    position: relative;
+    top: -9.5em;
+    right: -5em;
+    width: 30px;
+    font-size: 25px;
+    border: solid 2px;
+    border-color: rgb(29, 29, 27);
+}
+.imgtitulo{
+    background-image: url(img/buzos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 80px;
+    margin-bottom: 30px;
+}
+.titulos{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 7.5%;
+    font-family: Bebas Neue;
+    letter-spacing: 2px;
+    font-weight: 400;
+    padding-top: 60px;
+}
+.cuadrados{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 5%;
+    margin-top: -5%;
+}
+.cuadradito{
+    width: 18px;
+    padding-left: 5%;
+}
+.horizontalindu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.fotoindu{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.botonindu{
+    text-align: center;
+}
+.corazonbuzos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.corazon1{
+    width: 15%;
+    height: 60%;
+    margin-top: 5%;
+    justify-content: right;
+}
+/* FIN HTML: BUZOS */
+
+
+/* HTML: BUZO PARTICULAR */
+
+/* SLIDE */
+.conteiner2{
+    margin: auto;
+    background-color:rgb(29, 29, 27);
+    width: 375px;
+    padding: 0px;
+    padding-top: 3%;
+    }
+    ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+    ul.slider2{
+        position: relative;
+        width: 375px;
+        height: 350px;
+    }
+    ul.slider2 li{
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        opacity: 0;
+        width: inherit;
+        height: inherit;
+        transition: opacity .5s ;
+    }
+    ul.slider2 li img{
+        width: 375px;
+        height: 350px;
+        object-fit: cover;
+    }
+    ul.slider2 li:first-child{
+        opacity: 1;
+    }
+    ul.slider2 li:target{
+        opacity: 1;
+    }
+    .menu2{
+        text-align: center;
+        margin: 0%;
+    }
+    .menu2 li{
+        display: inline-block;
+        text-align: center;
+    }
+    .menu2 li a{
+        display: inline-block;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        background-color: rgb(29, 29, 27);
+        padding: 10px;
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+        border-radius: 100%;
+    }
+    /* FIN SLIDE */
+
+.horizontal3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 10%;
+    justify-content: space-between;
+    }
+.textoenergy{
+    font-family: roboto;
+    color: white;
+    font-size: 35px;
+    text-align: left;
+    margin-left: 3%;
+    text-transform: uppercase;
+    font-weight: 500;
+    }
+.corazon{
+    width: 10%;
+    height: 5%;
+    margin-top: 1%;
+    }
+.preciobuzo{
+    color: white;
+    font-family: roboto;
+    margin-left: 8%;
+    font-size: 30px;
+    margin-top: 2%;
+    font-weight: 500;
+    }
+.tarjeta{
+    width: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
+    }
+.cuotas{
+    color: white;
+    font-family: roboto;
+    font-size: 15px;
+    }
+.horizontal4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 7%;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-bottom: 2.5%;
+    }
+.mediospago{
+    color: white;
+    text-decoration: underline;
+    margin-left: 22.5%;
+    font-family: roboto;
+    font-size: 13px;
+    margin-bottom: 5%;
+    }
+.contenedortalles{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8%;
+    justify-content: left;
+    margin-left: 8%;
+    margin-right: 30%;
+    }
+h6{
+    font-family: roboto;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 3%;
+    }
+.cajatalle{
+    font-family: roboto;
+    color: white;
+    background-color:rgb(29, 29, 27);
+    border: solid 1px white;
+    padding: 2%;
+    margin-left: 5%;
+    }
+.contenedorcolores{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8%;
+    justify-content: left;
+    margin-left: 8%;
+    margin-right: 30%;
+    }
+.formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 0%;
+    margin-left: 2%;
+    }
+
+.botoncarrito{
+    color: rgb(29, 29, 27);
+    background-color: rgb(0, 240, 2);
+    border: solid 3px;
+    border-color: rgb(29, 29, 27);
+    width: 90%;
+    font-family: Bebas Neue;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    }
+.codigopostal{
+    text-transform: capitalize;
+    width: 60%;
+    font-size: 12px;
+    padding-right: 10%;
+    border: solid 1px white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 0%;
+    margin-bottom: 4%;
+    margin-left: 5%;
+    }
+.calcular{
+    margin-left: 0%;
+    border: solid 1px white;
+    background-color:rgb(29, 29, 27);
+    color: white;
+    font-family: Bebas Neue;
+    width: 30%;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 4%;
+    margin-right: 10%;
+    }
+.horizontalinfo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    margin-left: 5%;
+    margin-right: 10%;
+    justify-content: space-around;
+    }
+.textoinfo{
+    color: white;
+    text-transform: uppercase;
+    font-family: roboto;
+    font-size: 15px;  
+    margin-top: 2%; 
+    }
+.icono{
+    width: 15%;
+    margin-left: 2%;
+    }
+.lineab{
+    height: 2px;
+    width: 350px;
+    background-color: white;
+    margin-top: 4%;
+    margin-bottom: 1%;
+    margin-left: 4%;
+    }
+.completalook{
+    color: white;
+    text-transform: uppercase;
+    font-size: 120%;
+    font-family: roboto;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    }
+.horizontal5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 0%;
+    }
+.vertical5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    }
+.texto5{
+    color: white;
+    font-family: roboto;
+    font-size: 100%;
+    text-align: center;
+    font-weight: 300;
+    }
+.horizontal6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 0%;
+    }
+.vertical6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    }
+.texto6{
+    color: white;
+    font-family: roboto;
+    font-size: 80%;
+    text-align: left;
+    font-weight: 300;
+    }
+/* FIN HTML: BUZO PARTICULAR */
+
+
+
+/* HTML NFTS */
+.bodynft{
+    background-image: url(IMG/fondoplgrnft.png);
+    background-repeat: no-repeat;
+}
+.titulos2{
+    color: white;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Bebas Neue;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.fotonft{
+    background-image: url(/img/avatar1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 380px;
+}
+.anft{
+    position: relative;
+    top: 17em;
+    text-align: center;
+}
+.botonnft{
+    width: 70%;
+    border: solid 1px;
+    border-color: rgb(29, 29, 27);
+    font-family: Bebas Neue;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 15%;
+}
+.parrafonft{
+    color: white;
+    font-size: 15px;
+    font-family: roboto;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.horizontalnft{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.nfthorizontal{
+    width: 150px;
+    margin-left: 15px;
+}
+.nfthorizontal2{
+    width: 150px;
+    margin-right: 15px;
+}
+.fotonft2{
+    background-image: url(/img/avatar2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    margin: 20px;
+    margin-top: 30px;
+}
+.fondovioleta{
+    background-color: rgba(230, 141, 255, 0.526);
+    margin-bottom: 30px;
+}
+.avatar3{
+    width: 170px;
+    margin: 10px;
+    margin-right: 20px;
+}
+.flexnft2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: roboto;
+    color: white;
+}
+.listasnft{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    list-style-type: disc;
+    font-size: 19px;
+    font-weight: 400;
+}
+.botonnft2{
+    margin-top: 20px;
+    width: 70%;
+    border: solid 1px;
+    border-color:rgb(29, 29, 27);
+    font-family: Bebas Neue;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 15%;
+}
+.anft2{
+    position: relative;
+    top: -1em;
+}
+.listasnft2{
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    list-style-type: disc;
+    font-size: 19px;
+    font-weight: 400;
+}
+.avatar4{
+    width: 160px;
+    margin: 10px;
+    margin-left: 30px;
+}
+.titulos3{
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Bebas Neue;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding-bottom: 0px;
+}
+
+/* FIN NFT */
+
+/* LOCALES */
+.imgtitulo2{
+    background-image: url(img/localintro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 80px;
+}
+.direcciones{
+    padding-top: 30px;
+    color: white;
+    font-family: roboto;
+    padding-left: 20px;
+    font-size: 13px;
+    background-image: url(img/localesfondo.png);
+    padding-bottom: 20px;
+}
+.titulolocales{
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 2px;
+    font-size: 16px;
+}
+iframe{
+    width: 100%;
+}
+.espacio{
+    margin-top: 5%;
+}
+/* FIN LOCALES */
+
+/* GIFTCARDS */
+.imgtitulo3{
+    background-image: url(img/giftcards.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 80px;
+    margin-bottom: 30px;
+}
+.imggiftcards{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.giftcards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.textogift{
+    color: white;
+    font-family: roboto;
+    margin-left: 20px;
+    font-size: 19px;
+    margin-right: 80px;
+}
+.imgcorazon{
+    width: 40px;
+    margin-right: 10px;
+    margin-bottom: 4px;
+}
+.textochico{
+    color: white;
+    font-family: roboto;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0%;
+}
+.textochico1{
+    color: white;
+    font-family: roboto;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5%;
+}
+.textogift2{
+    color: white;
+    font-family: roboto;
+    margin-left: 20px;
+    font-size: 19px;
+    margin-right: 20px;
+}
+.pareja{
+    width: 170px;
+}
+.horizontalnuevo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    }
+.desplegablegc{
+    font-family: roboto;
+    font-size: 17px;
+    text-transform: none;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+#ocasion{
+    width: 83%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.textochico2{
+    color: white;
+    font-family: roboto;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.botonnumero{
+    font-family: roboto;
+    font-size: 17px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 9%;
+}
+.textobotonesgc{
+    color: white;
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 200;
+    margin-top: 5px;
+    margin-left: 33px;
+    margin-bottom: -15px;
+}
+/* GIFTCARDS */
+
+/* ENVIO */
+.imgtitulo4{
+    background-image: url(img/giftcards.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 80px;
+    margin-bottom: 30px;
+}
+.inputs{
+    font-family: roboto;
+    font-size: 15px;
+    text-transform: none;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+.sub{
+    font-family: Bebas Neue;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 15px;
+    margin-left: 8%;
+}
+.radio{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 85%;
+    margin-left: 6%;
+    background-color: white;
+    margin-bottom: 5%;
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+.textradio{
+    font-family: Roboto;
+    padding-left: 20px; 
+    font-size: 15px;
+}
+.paisformu{
+    font-family: Roboto;
+    font-size: 17px;
+    text-transform: none;
+    text-align: center;
+}
+#pais{
+    width: 81%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
+
+/* FIN ENVIO */
+
+/* CREA TU DISEÑO */
+.pasos{
+    font-family: Bebas Neue;
+    font-size: 27px;
+    margin-left: 30px;
+    color: white;
+    margin-bottom: 5px;
+}
+.pasos2{
+    font-family: Bebas Neue;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.contenedorescrea{
+    border: solid 1px white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.rowcrea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.remerita{
+    width: 90px;
+}
+
+.botonverde{
+    width: 20px;
+    border-radius: 100%;
+    color: rgb(29, 29, 27);
+    border: solid 1px white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.cuadradopasos{
+    width: 30px;
+}
+.rowcrea2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.rowcrea3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.cajatalle2{
+    font-family: roboto;
+    font-size: 20px;
+    color: white;
+    background-color:rgb(29, 29, 27);
+    border: solid 1px white;
+    padding: 2%;
+    margin-left: 5%;
+}
+.pasos3{
+    font-family: Bebas Neue;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cont1paso4{
+    display: flex;
+    flex-direction: row;
+}
+#color{
+    margin-top: 10px;
+    width: 80px;
+    margin-left: 15px;
+}  
+.logospaso4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 45%;
+    margin-left: 16px;
+}
+
+.contpaso4num{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -4.1em;
+    color: black;
+    justify-content: space-between;
+    margin-right: 150px;
+    margin-left: 25px;
+    font-family: Bebas Neue;
+    font-size: 19px;
+    margin-bottom: -23px;
+}
+.numpaso5{
+    margin-right: -2px;
+}
+.numpaso6{
+    margin-right: -30px;
+}
+.videoremera{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    width: 90%;
+    margin-left: 5%;
+}
+.previsualizar{
+    text-decoration: underline;
+    color: white;
+    font-family: Roboto;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* FIN CREA TU DISEÑO */
+
+/* CARRITO */
+.titulos4{
+        color: white;
+        font-size: 50px;
+        text-transform: uppercase;
+        text-align: left;
+        margin-left: 7.5%;
+        font-family: Bebas Neue;
+        letter-spacing: 2px;
+        font-weight: 400;
+        padding-top: 25px;
+}
+.maincarrito{
+    width: 90%;
+    border: solid 1px white;
+    margin-left: 17.5px;
+}
+
+.fotocarro{
+    width: 40%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.carritohorizontal{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.verticalcarrito{
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.carritotexto{
+    font-family: Roboto;
+    font-size: 18px;
+    margin-top: 4px;
+}
+.titulocarro{
+    font-size: 22px;
+    font-weight: 500;
+}
+.numerocarrito{
+    margin-top: 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 25px;
+}
+.preciocarrito{
+    font-family: Roboto;
+    font-size: 20px;
+    margin-top: 22px;
+    text-align: center;
+}
+.botoncarrito2{
+        color: rgb(29, 29, 27);
+        background-color: white;
+        border: solid 3px;
+        border-color: rgb(29, 29, 27);
+        width: 90%;
+        font-family: Bebas Neue;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        font-size: 25px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 5%;
+}
+.subtotal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.textosubtotal{
+    font-family: Bebas Neue;
+    font-size: 25px;
+    color: white;
+
+}
+/* FIN CARRITO */
+
+/* QUIENES SOMOS */
+.imgtitulo5{
+    background-image: url(img/quienesomos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 80px;
+    margin-bottom: 10px;
+    
+}
+.textoqs{
+    font-family: Roboto;
+    color: white;
+    font-size: 17px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+
+.fotoqs{
+    width: 100%;
+}
+.contenedorquienessomos{
+    background-image: url(img/fondoqs.png);
+    background-size: cover;
+}
+
+
+.equipo{
+    color: rgb(0, 240, 2);
+    font-family: Bebas Neue;
+    font-size: 35px;
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+.empleadas{
+    width: 90px;
+    margin-right: 20px;
+}
+
+.rowquienessomos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+.columnquienesomos{
+    display: flex;
+    flex-direction: row;
+    font-family: Bebas Neue;
+    
+}
+
+.nombreemple{
+    font-family: Bebas Neue;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 20px;
+}
+
+.empleo{
+    font-family: Bebas Neue;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.instasvg{
+    width: 30px;
+}
+
+/* FIN QUIENES SOMOS */
+
+
+.textomenu{
+    color: white;
+    font-family: Bebas Neue;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.aflecha{
+    width: 14%;
+}
+
+
+.flecha{
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
